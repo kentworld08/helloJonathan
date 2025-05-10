@@ -52,14 +52,14 @@ export const Hero = () => {
             crowd
           </motion.p>
         </div>
-        <figure className="hidden md:block xl:w-[874px] xl:h-[707px] xl:p-[10px] xl:absolute xl:left-[2rem] xl:right-[168px]">
+        {/* <figure className="hidden md:block xl:w-[874px] xl:h-[707px] xl:p-[10px] xl:absolute xl:left-[2rem] xl:right-[168px]">
           <img
             src={profileimg}
             alt="profile image"
             loading="lazy"
             className="md:absolute md:nset-0 md:w-[50vw] md:min-w-[400px] md:h-auto md:max-w-full md:object-cover md:-top-5 md:left-[9rem] md:right-[3rem] xl:w[854px] xl:h-[687px] xl:-top-[8rem]"
           />
-        </figure>
+        </figure> */}
         <div className="md:w-full ">
           <motion.p
             initial="initial"

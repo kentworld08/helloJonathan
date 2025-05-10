@@ -1,4 +1,4 @@
-import profileicon from "../assets/icons/profile-icon.png";
+import profileicon from "../assets/images/profile-img2.png";
 import { Link } from "react-router-dom";
 import { UsemobileMenuContext } from "./utility/mobileMenuContext";
 import linkdinIcon from "../assets/icons/linkdin-icon.png";
@@ -41,7 +41,7 @@ const Navigation = () => {
         <img
           src={profileicon}
           alt="profile img icon"
-          className="h-10 w-10 sm:w-11 sm:h-11 lg:h-14 lg:w-14 xl:h-[40px] xl:w-[40px] "
+          className="h-10 w-10 sm:w-11 sm:h-11 lg:h-14 lg:w-14 xl:h-[40px] xl:w-[40px] rounded-full"
           loading="lazy"
         />
 
@@ -80,7 +80,7 @@ const Navigation = () => {
           );
         })}
         <a
-          href="https://wa.me/2349059900289"
+          href="https://wa.me/2349130752848"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer tracking-tight py-3 px-2 font-Poppins text-primary-100 text-base font-light transition-property lg:text-2xl xl:font-[400] xl:text-center hover:opacity-70"
