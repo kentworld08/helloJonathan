@@ -1,4 +1,4 @@
-import profileicon from "../assets/images/profile-img2.png";
+// import profileicon from "../assets/images/profile-img2.png";
 import { Link } from "react-router-dom";
 import { UsemobileMenuContext } from "./utility/mobileMenuContext";
 import linkdinIcon from "../assets/icons/linkdin-icon.png";
@@ -8,6 +8,7 @@ import githubicon from "../assets/icons/github-icon.png";
 import whatsappicon from "../assets/icons/whatsapp-icon.png";
 import MobileMenu from "./mobileMenu";
 import { UseColorContext } from "./utility/colorContext";
+import { LiveAvatar } from "./ActiveProfileIcon";
 
 export const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -38,19 +39,20 @@ const Navigation = () => {
         onClick={() => scrollToSection("home")}
         className="text-primary-100 flex items-center gap-x-3 lg:gap-x-5 dark:text-primary-50"
       >
-        <img
+        {/* <img
           src={profileicon}
           alt="profile img icon"
           className="h-10 w-10 sm:w-11 sm:h-11 lg:h-14 lg:w-14 xl:h-[40px] xl:w-[40px] rounded-full"
           loading="lazy"
-        />
+        /> */}
+        <LiveAvatar />
 
         <div className="block text-left">
           <h1 className="font-base font-Poppins leading-3 text-primary-100 tracking-tighter sm:font-bold lg:text-3xl xl:font-bold xl:text-[24px]">
             JONATHAN
           </h1>
           <div className="flex items-center gap-x-2 ">
-            <div className="w-2 h-2 rounded-full bg-emerald-500 " />
+            {/* <div className="w-2 h-2 rounded-full bg-emerald-500 " /> */}
             <p className=" font-light tracking-tighter text-primary-100 lg:text-2xl xl:text-[16px]">
               available for hire
             </p>
